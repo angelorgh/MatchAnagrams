@@ -22,7 +22,7 @@ namespace matcherConsole
                 var result = match.GetAnagrams(wordslist);
 
                 Display display = new Display();
-                Console.WriteLine(display.Print(result));
+                display.PrintOnScreen(result);
             }
             else{
                 Console.WriteLine("Error: the file doesn't exist");
