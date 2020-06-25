@@ -8,17 +8,17 @@ namespace Matcher.Services
     {
         public Dictionary<string,List<string>> GetAnagrams(string[] input)
         {
-            if (input.SequenceEqual(new string[]{"aeio","ioae"}))
+            var result = new Dictionary<string, List<string>>();
+            foreach (string word in input)
             {
-                return new Dictionary<string, List<string>>();
+                string sortedWord = SortChars(word);
+                if(result.TryGetValue(sortedWord, out List<string> wordList)){
+                    wordList.Add(word);
+                } else {
+                    result.Add(sortedWord,new List<string>{word});
+                }
             }
-            if (input.SequenceEqual(new string[]{"casa","saca"}))
-            {
-                return new Dictionary<string, List<string>>(){
-                {"aacs",new List<string>(){"casa","aacs"}}};
-            }
-            
-            throw new NotImplementedException("IMPLEMENT ME!!!!");
+            return result;
         }
 
         public string SortChars(string input)

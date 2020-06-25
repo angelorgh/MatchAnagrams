@@ -26,7 +26,19 @@ namespace Matcher.UnitTests.Classes
         {
             var result = _matchServices.GetAnagrams(new string[]{"casa","saca"});
             Assert.AreEqual(new Dictionary<string, List<string>>(){
-                {"aacs",new List<string>(){"casa","aacs"}}
+                {"aacs",new List<string>(){"casa","saca"}}
+                }, result);
+            
+        }
+        
+        [Test]
+        public void GetAnagrams_With_cAsa_Saca_Pollo_id_di_caas_Returns_Dictionary_With_Correct_Values()
+        {
+            var result = _matchServices.GetAnagrams(new string[]{"cAsa","Saca","Pollo","id","di","caas"});
+            Assert.AreEqual(new Dictionary<string, List<string>>(){
+                { "aacs",new List<string>(){"cAsa","Saca","caas"} },
+                { "lloop",new List<string>{"Pollo"}  },
+                { "di",new List<string>(){"id","di"} }
                 }, result);
             
         }
