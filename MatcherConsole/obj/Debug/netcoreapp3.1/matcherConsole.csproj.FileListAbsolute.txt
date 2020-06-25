@@ -1,0 +1,16 @@
+D:\Visual_Code_Projects\MatchAnagrams\matcherConsole\obj\Debug\netcoreapp3.1\matcherConsole.csprojAssemblyReference.cache
+D:\Visual_Code_Projects\MatchAnagrams\matcherConsole\obj\Debug\netcoreapp3.1\matcherConsole.AssemblyInfoInputs.cache
+D:\Visual_Code_Projects\MatchAnagrams\matcherConsole\obj\Debug\netcoreapp3.1\matcherConsole.AssemblyInfo.cs
+D:\Visual_Code_Projects\MatchAnagrams\matcherConsole\obj\Debug\netcoreapp3.1\matcherConsole.csproj.CoreCompileInputs.cache
+D:\Visual_Code_Projects\MatchAnagrams\matcherConsole\bin\Debug\netcoreapp3.1\matcherConsole.exe
+D:\Visual_Code_Projects\MatchAnagrams\matcherConsole\bin\Debug\netcoreapp3.1\matcherConsole.deps.json
+D:\Visual_Code_Projects\MatchAnagrams\matcherConsole\bin\Debug\netcoreapp3.1\matcherConsole.runtimeconfig.json
+D:\Visual_Code_Projects\MatchAnagrams\matcherConsole\bin\Debug\netcoreapp3.1\matcherConsole.runtimeconfig.dev.json
+D:\Visual_Code_Projects\MatchAnagrams\matcherConsole\bin\Debug\netcoreapp3.1\matcherConsole.dll
+D:\Visual_Code_Projects\MatchAnagrams\matcherConsole\bin\Debug\netcoreapp3.1\matcherConsole.pdb
+D:\Visual_Code_Projects\MatchAnagrams\matcherConsole\bin\Debug\netcoreapp3.1\MatcherServices.dll
+D:\Visual_Code_Projects\MatchAnagrams\matcherConsole\bin\Debug\netcoreapp3.1\MatcherServices.pdb
+D:\Visual_Code_Projects\MatchAnagrams\matcherConsole\obj\Debug\netcoreapp3.1\matcherConsole.csproj.CopyComplete
+D:\Visual_Code_Projects\MatchAnagrams\matcherConsole\obj\Debug\netcoreapp3.1\matcherConsole.dll
+D:\Visual_Code_Projects\MatchAnagrams\matcherConsole\obj\Debug\netcoreapp3.1\matcherConsole.pdb
+D:\Visual_Code_Projects\MatchAnagrams\matcherConsole\obj\Debug\netcoreapp3.1\matcherConsole.genruntimeconfig.cache

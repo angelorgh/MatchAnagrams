@@ -1,21 +1,29 @@
 using System;
+using System.IO;
+using System.Collections.Generic;
 
-class Read
+namespace Matcher.Services
 {
-    public string[] readfile(string file)
+    public class Read
     {
-        using(StreamReader reader = new StreamReader(file))
+        public string[] readfile(string file)
         {
-            string[] wordslist;
+            List<string> words = new List<string>();
 
-            string line;
-            for (int i = 0; line = reader.ReadLine() != null; i++)
+            using(StreamReader reader = new StreamReader(file))
             {
-                wordslist[i] = line;
+                string line;
 
+                while ((line = reader.ReadLine()) != null)
+                {
+                    words.Add(line);
+                }
+        
             }
-            //while (line = reader.ReadLine() != null) 
-    
-        }return wordslist;
+            
+            string[] wordslist = words.ToArray();
+
+            return wordslist;
+        }
     }
 }

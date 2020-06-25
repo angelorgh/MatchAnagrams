@@ -16,3 +16,12 @@ C:\Users\jhona\Desktop\Files\INTEC\Programas\MatchAnagrams\MatcherServices\obj\D
 C:\Users\jhona\Desktop\Files\INTEC\Programas\MatchAnagrams\MatcherServices\obj\Debug\netcoreapp2.1\MatcherServices.AssemblyInfo.cs
 C:\Users\jhona\Desktop\Files\INTEC\Programas\MatchAnagrams\MatcherServices\obj\Debug\netcoreapp2.1\MatcherServices.dll
 C:\Users\jhona\Desktop\Files\INTEC\Programas\MatchAnagrams\MatcherServices\obj\Debug\netcoreapp2.1\MatcherServices.pdb
+D:\Visual_Code_Projects\MatchAnagrams\MatcherServices\obj\Debug\netcoreapp2.1\MatcherServices.csprojAssemblyReference.cache
+D:\Visual_Code_Projects\MatchAnagrams\MatcherServices\obj\Debug\netcoreapp2.1\MatcherServices.AssemblyInfoInputs.cache
+D:\Visual_Code_Projects\MatchAnagrams\MatcherServices\obj\Debug\netcoreapp2.1\MatcherServices.AssemblyInfo.cs
+D:\Visual_Code_Projects\MatchAnagrams\MatcherServices\obj\Debug\netcoreapp2.1\MatcherServices.csproj.CoreCompileInputs.cache
+D:\Visual_Code_Projects\MatchAnagrams\MatcherServices\obj\Debug\netcoreapp2.1\MatcherServices.dll
+D:\Visual_Code_Projects\MatchAnagrams\MatcherServices\obj\Debug\netcoreapp2.1\MatcherServices.pdb
+D:\Visual_Code_Projects\MatchAnagrams\MatcherServices\bin\Debug\netcoreapp2.1\MatcherServices.deps.json
+D:\Visual_Code_Projects\MatchAnagrams\MatcherServices\bin\Debug\netcoreapp2.1\MatcherServices.dll
+D:\Visual_Code_Projects\MatchAnagrams\MatcherServices\bin\Debug\netcoreapp2.1\MatcherServices.pdb
