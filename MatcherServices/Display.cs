@@ -5,9 +5,14 @@ namespace Matcher.Services {
     public class Display {
         public void PrintOnScreen (Dictionary<string, List<string>> dictionary) {
             if (Validate (dictionary)) {
+                List<string> longestAnagram = new List<string>();
                 foreach (var item in dictionary) {
                     if (item.Value.Count > 1)
                     {
+                        if (item.Value.Count > longestAnagram.Count)
+                        {
+                            longestAnagram = item.Value;
+                        }
                         foreach (var element in item.Value) 
                         {
                             Console.Write($"{element} ");
@@ -15,6 +20,14 @@ namespace Matcher.Services {
                         Console.WriteLine(" ");
                     }
                 }
+                Console.Write("Longest set: ");
+
+                foreach (var element in longestAnagram)
+                {
+                    Console.Write($"{element} ");
+                }
+                Console.WriteLine(" ");
+
                 return;
             }
             Console.Error.WriteLine("Invalid dictionary");
