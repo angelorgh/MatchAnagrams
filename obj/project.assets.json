@@ -559,7 +559,6 @@
       "path": "netstandard.library/2.0.3",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -695,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhona\\Desktop\\Files\\INTEC\\Programas\\MatchAnagrams\\MatcherServices\\MatcherServices.csproj",
-      "projectName": "MatcherServices",
-      "projectPath": "C:\\Users\\jhona\\Desktop\\Files\\INTEC\\Programas\\MatchAnagrams\\MatcherServices\\MatcherServices.csproj",
+      "projectUniqueName": "C:\\Users\\jhona\\Desktop\\Files\\INTEC\\Programas\\MatchAnagrams\\MatchAnagrams.csproj",
+      "projectName": "MatchAnagrams",
+      "projectPath": "C:\\Users\\jhona\\Desktop\\Files\\INTEC\\Programas\\MatchAnagrams\\MatchAnagrams.csproj",
       "packagesPath": "C:\\Users\\jhona\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhona\\Desktop\\Files\\INTEC\\Programas\\MatchAnagrams\\MatcherServices\\obj\\",
+      "outputPath": "C:\\Users\\jhona\\Desktop\\Files\\INTEC\\Programas\\MatchAnagrams\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -730,7 +729,6 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
