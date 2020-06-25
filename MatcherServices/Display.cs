@@ -6,10 +6,14 @@ namespace Matcher.Services {
         public void PrintOnScreen (Dictionary<string, List<string>> dictionary) {
             if (Validate (dictionary)) {
                 foreach (var item in dictionary) {
-                    foreach (var element in item.Value) {
-                        Console.Write($"{element} ");
+                    if (item.Value.Count > 1)
+                    {
+                        foreach (var element in item.Value) 
+                        {
+                            Console.Write($"{element} ");
+                        }
+                        Console.WriteLine(" ");
                     }
-                    Console.WriteLine(" ");
                 }
                 return;
             }
