@@ -3,6 +3,19 @@ using System.Collections.Generic;
 
 namespace Matcher.Services {
     public class Display {
+        public void PrintOnScreen (Dictionary<string, List<string>> dictionary) {
+            if (Validate (dictionary)) {
+                foreach (var item in dictionary) {
+                    foreach (var element in item.Value) {
+                        Console.Write($"{element} ");
+                    }
+                    Console.WriteLine(" ");
+                }
+                return;
+            }
+            Console.Error.WriteLine("Invalid dictionary");
+        }
+        
         public string Print (Dictionary<string, List<string>> dictinoary) {
             if (Validate (dictinoary)) {
                 string returned = "";
