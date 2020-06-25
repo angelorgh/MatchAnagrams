@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatcherServices", "MatcherS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatcherServices.Tests", "MatcherServices.Tests\MatcherServices.Tests.csproj", "{60360495-6EEE-4859-A0B7-E6D6420B677F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "matcherConsole", "MatcherConsole\matcherConsole.csproj", "{8814F992-B3E5-45F6-BA5B-CAC8AAABC74C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{60360495-6EEE-4859-A0B7-E6D6420B677F}.Release|x64.Build.0 = Release|Any CPU
 		{60360495-6EEE-4859-A0B7-E6D6420B677F}.Release|x86.ActiveCfg = Release|Any CPU
 		{60360495-6EEE-4859-A0B7-E6D6420B677F}.Release|x86.Build.0 = Release|Any CPU
+		{8814F992-B3E5-45F6-BA5B-CAC8AAABC74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8814F992-B3E5-45F6-BA5B-CAC8AAABC74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8814F992-B3E5-45F6-BA5B-CAC8AAABC74C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8814F992-B3E5-45F6-BA5B-CAC8AAABC74C}.Debug|x64.Build.0 = Debug|Any CPU
+		{8814F992-B3E5-45F6-BA5B-CAC8AAABC74C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8814F992-B3E5-45F6-BA5B-CAC8AAABC74C}.Debug|x86.Build.0 = Debug|Any CPU
+		{8814F992-B3E5-45F6-BA5B-CAC8AAABC74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8814F992-B3E5-45F6-BA5B-CAC8AAABC74C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8814F992-B3E5-45F6-BA5B-CAC8AAABC74C}.Release|x64.ActiveCfg = Release|Any CPU
+		{8814F992-B3E5-45F6-BA5B-CAC8AAABC74C}.Release|x64.Build.0 = Release|Any CPU
+		{8814F992-B3E5-45F6-BA5B-CAC8AAABC74C}.Release|x86.ActiveCfg = Release|Any CPU
+		{8814F992-B3E5-45F6-BA5B-CAC8AAABC74C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
