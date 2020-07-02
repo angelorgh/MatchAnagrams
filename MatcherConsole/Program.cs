@@ -1,6 +1,7 @@
 ﻿using System;
 using Matcher.Services;
 using System.IO;
+using System.Threading;
 
 namespace matcherConsole
 {
@@ -8,8 +9,8 @@ namespace matcherConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter File name: ");
-            var path = @"../" + Console.ReadLine();
+            Console.WriteLine("Enter File directory: ");
+            var path =  Console.ReadLine();
 
             string[] wordslist;
 
